@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.tituloCardapio {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f3dfa0;
+}
+
+.listaDeProdutosUl {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 800px;
+}
+
+.listaDeProdutosLi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.divLista {
+  display: flex;
+  flex-direction: row;
+}
+
+.produtoNome {
+  color: #f3dfa0;
+}
+
+.produtoDescricao {
+  margin-top: 20px;
+}
+
+.divPrecoBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.produtoPreco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  background: #f3dfa0;
+  color: #000000;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btnAdd {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background: #f3dfa0;
+  transition: transform 0.5s ease;
+}
+
+.btnAdd:hover {
+  background: #bfac6f;
+  transform: scale(1.2);
+}
+
+.imgPizza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 170px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 20px;
+}

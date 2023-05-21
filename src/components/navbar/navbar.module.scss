@@ -1,0 +1,82 @@
+.backgroundNavBar {
+  background: #20170e;
+  margin-bottom: 70px;
+  border-bottom: 5px solid #1a1109;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 1px 1px 20px black;
+}
+
+.imgIconPizza {
+  display: inline-block;
+  align-items: center;
+  margin-left: 40px;
+  transition: transform 0.5s ease;
+}
+
+.imgIconPizza:hover {
+  transform: scale(1.2);
+}
+
+.tituloNavBar {
+  margin-left: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f3dfa0;
+}
+
+.btnCarrinhoDeCompras {
+  background: #f3dfa0;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin-right: 40px;
+  transition: transform 0.5s ease;
+}
+
+.btnCarrinhoDeCompras:hover {
+  transform: scale(1.1);
+}
+
+.iconCarrinho {
+  margin-right: 15px;
+}
+
+.tituloCarrinho {
+  font-weight: 700;
+}
+
+.buttonQuantidadeCarrinho {
+  position: relative;
+  top: 1px;
+  height: 2rem;
+  width: 2.2rem;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+}
+
+.btnFazerPedido {
+  background-color: #f3dfa0;
+  color: black;
+}
+
+.btnFazerPedido:hover {
+  background-color: #bfac6f;
+}
+
+.btnFecharPedido {
+  background-color: #db2b2b;
+}
+
+.btnFecharPedido:hover {
+  background-color: rgb(159, 22, 22);
+}
+
+.btnTrash {
+  position: relative;
+  left: 40px;
+  border: none;
+  background: transparent;
+}
